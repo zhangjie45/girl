@@ -96,4 +96,8 @@ public class GirlController {
     public void getAge(@PathVariable("id") Integer id) throws Exception{
         girlService.getAge(id);
     }
+    @GetMapping(value = "/testGitHub")
+    public void TestGit(){
+
+    }
 }
